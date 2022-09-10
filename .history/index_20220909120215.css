@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+}
+.header__title{
+    display: inline-block;
+     position: absolute;
+     top: -4px;
+    left: 160px;
+}
+
+.header__title h1{
+    font-size: 35px;
+    color: #1b1d2d;
+}
+header i{
+    background-color: #002146;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    color: #fdc800;
+    text-align: center;
+    padding-top: 9px;
+   
+}
+nav ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+nav li{
+    display: inline;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #002146;
+    font-weight: 500;
+}
