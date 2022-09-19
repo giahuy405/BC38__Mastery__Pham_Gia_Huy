@@ -1,0 +1,10 @@
+function active(){
+    var active_home=document.getElementById("active-home");
+    active_home.addEventListener("click",function(){
+        active_home.style.backgroundColor="#002146";
+        active_home.style.color="#fdc800";
+    }) 
+       
+    
+
+}
